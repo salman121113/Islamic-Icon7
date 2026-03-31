@@ -1,0 +1,7 @@
+{
+  "name": "Deen Tracker & AI (ঈমান বুস্টার)",
+  "description": "A personal Islamic app to strengthen faith, track daily prayers and habits, read Hadiths and stories, and chat with an Islamic AI assistant.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

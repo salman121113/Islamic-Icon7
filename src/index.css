@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
+
+.markdown-body h1 { @apply text-2xl font-bold text-emerald-800 mb-4; }
+.markdown-body h2 { @apply text-xl font-bold text-emerald-700 mt-6 mb-3; }
+.markdown-body h3 { @apply text-lg font-bold text-emerald-600 mt-4 mb-2; }
+.markdown-body p { @apply mb-4 leading-relaxed; }
+.markdown-body ul { @apply list-disc pl-5 mb-4 space-y-2; }
+.markdown-body ol { @apply list-decimal pl-5 mb-4 space-y-2; }
+.markdown-body blockquote { @apply border-l-4 border-emerald-500 pl-4 italic text-gray-600 bg-emerald-50 py-2 pr-2 rounded-r my-4; }
+.markdown-body strong { @apply font-bold text-emerald-900; }
